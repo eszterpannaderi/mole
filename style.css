@@ -1,0 +1,118 @@
+body{
+    background-color: #512700;
+    margin:0;
+}
+
+.container{
+    width:70%;
+    height: 650px;
+    background-color:rgb(186, 253, 98);
+    border-radius: 15pt;
+    margin: 20px auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+
+
+}
+.header{
+    width:100%;
+    height: 100px;
+    background-color:rgb(255, 255, 255);
+    position:relative;
+    border-radius: 15pt 15pt 0 0;
+}
+.game{
+    width:600px;
+    height:500px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+
+}
+.square{
+    display:inline;
+    width:150px;
+    height:150px;
+    margin:10px;
+    border-radius: 100pt;
+    background-color: #512700;
+    border-right: 5pt solid #6e4f31;
+    display:flex;
+    align-items:flex-end;
+}
+button{
+    width:120px;
+    height:50px;
+    color:white;
+    background-color: rgb(250, 65, 65);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24pt;
+    border: none;
+    border-radius:  5pt;
+    position:absolute;
+    top:25px;
+    left:70px;
+    
+}
+button:hover{
+    background-color: rgb(250, 65, 65);
+
+}
+.counter{
+    width:120px;
+    height:50px;
+    color:white;
+    background-color: rgb(250, 65, 65);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24pt;
+    border: none;
+    border-radius:  5pt;
+    position:absolute;
+    top:25px;
+    right:70px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#score{
+    width:120px;
+    height:50px;
+    color:white;
+    background-color: rgb(250, 65, 65);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24pt;
+    border: none;
+    border-radius:  5pt;
+    position:absolute;
+    top:25px;
+    right:480px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+img{
+    height:150px;
+    
+}
+
+.gameover{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(250, 65, 65);
+    font-size:40pt;
+    margin:200px auto 0 auto;
+    font-weight: 200pt;
+    
+
+}
+p{
+    font-size:24pt;
+    margin:20px auto;
+    text-align: center;
+
+}
